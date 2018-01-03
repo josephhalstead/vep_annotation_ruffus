@@ -1,0 +1,2 @@
+vep:/home/cuser/ensembl-vep/vep
+ref:/home/cuser/Documents/Project/Preliminary/normalisation/reference_genomes/Homo_sapiens.GRCh37.75.dna_sm.primary_assembly.fa.gz
