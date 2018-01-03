@@ -6,7 +6,7 @@ A quick Ruffus script for annotating vcfs with VEP.
 
 There are a few preprocessing steps required before annotation so decided to do as a pipeline.
 
-Really just so I can learn a abit of Ruffus syntax.
+Really just so I can learn a a bit of Ruffus syntax.
 
 ## Running
 
