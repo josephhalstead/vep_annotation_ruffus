@@ -73,6 +73,8 @@ def annotate_with_vep(infile,outfile):
 
 	"""
 
+	print infile
+
 	vep_location = config_dict['vep']
 	reference_genome = config_dict['ref']
 
@@ -112,7 +114,19 @@ def clean_up():
 
 	"""
 
+	prefix = args.input_dir.split('/')[:-2]
+
+	print prefix
+
+	prefix = '/'.join(prefix)+'/'
+
+	print prefix
+
 	output_dir = args.input_dir.split('/')[-2]+'_vep'
+
+	output_dir = prefix+output_dir
+
+	print output_dir
 
 	command = 'rm {input_dir}*header*.vcf'.format(input_dir =args.input_dir)
 
